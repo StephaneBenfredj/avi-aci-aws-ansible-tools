@@ -9,7 +9,9 @@
 FROM ubuntu:16.04
 LABEL maintainer="stefb12@gmail.com"
 
-# ENV ANSIBLE_VERSION 2.5.0
+# for future use
+# ENV ANSIBLE_VERSION 2.x.x
+# ENV AVISDK_VERSION 18.1.x
 
 #RUN echo 'installing some useful packages:' 
 #RUN echo 'dialog apt-utils software-properties-common' 
