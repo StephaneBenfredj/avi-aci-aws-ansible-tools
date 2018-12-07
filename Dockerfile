@@ -9,6 +9,8 @@
 FROM ubuntu:16.04
 LABEL maintainer="stefb12@gmail.com"
 
+# ENV ANSIBLE_VERSION 2.5.0
+
 #RUN echo 'installing some useful packages:' 
 #RUN echo 'dialog apt-utils software-properties-common' 
 #RUN echo 'python-pip python-dnspython (needed for DNS lookups with ansible) python-netaddr' 
