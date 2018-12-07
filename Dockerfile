@@ -25,7 +25,7 @@ RUN apt-get update && apt-get install -y \
 	python-netaddr \
 	software-properties-common \
 	ssh-client \
-	vim \
+	vim
 
 #RUN echo 'adding ppa repository for ansible to get latest version and install ansible ...' 
 RUN apt-add-repository -y ppa:ansible/ansible && apt-get update && apt-get install -y ansible \
