@@ -31,7 +31,7 @@ RUN apt-get update && apt-get install -y \
 	ssh-client \
 	vim
 
-#RUN echo 'adding ppa repository for ansible to get latest version and install ansible ...' 
+RUN echo 'adding ppa repository for ansible to get latest version and install ansible ...' 
 RUN apt-add-repository -y ppa:ansible/ansible && apt-get update && apt-get install -y ansible \
 && rm -rf /var/lib/apt/lists/*
 
