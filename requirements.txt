@@ -1,0 +1,6 @@
+lxml
+xmljson
+pyvmomi
+avisdk
+awscli
+boto
