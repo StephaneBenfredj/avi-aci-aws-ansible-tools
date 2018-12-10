@@ -62,8 +62,8 @@ RUN ansible-galaxy install avinetworks.aviconfig
 
 ## below items are not needed to run playbooks on existing avi install 
 RUN ansible-galaxy install avinetworks.avicontroller
-## RUN ansible-galaxy install avinetworks.avise
-## RUN ansible-galaxy install avinetworks.docker
+RUN ansible-galaxy install avinetworks.avise
+RUN ansible-galaxy install avinetworks.docker
 
 
 
